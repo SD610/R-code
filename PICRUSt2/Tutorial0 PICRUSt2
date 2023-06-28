@@ -1,0 +1,77 @@
+# Need to install picrust2 and at least 16 GB RAM to run
+
+# Acitivate environment
+conda activate picrust2
+
+# Download, unzip, and enter the folder of tutorial files
+mkdir picrust2-tutorial
+cd picrust2-tutorial
+
+wget http://kronos.pharmacology.dal.ca/public_files/picrust/picrust2_tutorial_files/chemerin_16S.zip
+unzip chemerin_16S.zip
+cd chemerin_16S
+
+# OPTIONAL take a look at the input files
+less seqs.fna
+biom head -i table.biom
+# In the biom file, the first column of this table needs to match the ids in the FASTA file.
+# The additional columns represent different samples with the counts representing the number of reads within each of those samples.
+# Importantly, the input table should contain read counts rather than relative abundance. You can input a rarefied table, but that is not required.
+biom summarize-table -i table.biom
+
+# Data pre-processing
+# Remove rare ASVs especially singletons - ASVs found only by 1 read in 1 sample, to reduce the number of input ASVs and make PICRUSt2 faster and less memory intensive.
+# Check for any low-depth samples that should be removed.identified based on the output of biom summarize-table.
+# Best minimum cut-offs for excluding ASVs and samples varies by dataset since these cut-offs will differ depending on the overall read depth of your datase.
+# Filter a BIOM table, refer to QIIME2 tutorial
+
+# PICRUSt2 pipeline
+
+# Make new directory
+mkdir picrust2_out_pipeline
+cd picrust2_out_pipeline
+
+# Place reads into reference tree
+place_seqs.py -s ../seqs.fna -o out.tre -p 1
+
+# Hidden-state prediction of gene families
+hsp.py -i 16S -t out.tre -o marker_predicted_and_nsti.tsv.gz -p 1 -n
+hsp.py -i EC -t out.tre -o EC_predicted.tsv.gz -p 1
+hsp.py -i KO -t out.tre -o KO_predicted.tsv.gz -p 1
+# OPTIONAL take a look at the output
+zless -S marker_predicted_and_nsti.tsv.gz
+
+# Generate metagenome predictions
+metagenome_pipeline.py -i ../table.biom -m marker_predicted_and_nsti.tsv.gz -f EC_predicted.tsv.gz \
+                       -o EC_metagenome_out --strat_out
+# OR
+metagenome_pipeline.py -i study_seqs.biom \
+                       -m marker_nsti_predicted.tsv.gz \
+                       -f EC_predicted.tsv.gz \
+                       -o EC_metagenome_out
+
+metagenome_pipeline.py -i study_seqs.biom \
+                       -m marker_nsti_predicted.tsv.gz \
+                       -f KO_predicted.tsv.gz \
+                       -o KO_metagenome_out
+
+# OPTIONAL take a look at output
+# Take a look at the EC prediction tables
+zless -S EC_metagenome_out/pred_metagenome_unstrat.tsv.gz
+# NOTE: this output is not in relative abundance and even if you input a rarified BIOM table the columns of this table will not sum to the same number!
+# Look at the stratified output
+zless -S EC_metagenome_out/pred_metagenome_contrib.tsv.gz
+
+# Pathway-level inference
+pathway_pipeline.py -i EC_metagenome_out/pred_metagenome_contrib.tsv.gz \
+                    -o pathways_out -p 1
+
+# Add functional descriptions
+add_descriptions.py -i EC_metagenome_out/pred_metagenome_unstrat.tsv.gz -m EC \
+                    -o EC_metagenome_out/pred_metagenome_unstrat_descrip.tsv.gz
+
+add_descriptions.py -i KO_metagenome_out/pred_metagenome_unstrat.tsv.gz -m KO \
+                    -o KO_metagenome_out/pred_metagenome_unstrat_descrip.tsv.gz
+
+add_descriptions.py -i pathways_out/path_abun_unstrat.tsv.gz -m METACYC \
+                    -o pathways_out/path_abun_unstrat_descrip.tsv.gz
