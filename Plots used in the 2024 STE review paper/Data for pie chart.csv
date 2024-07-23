@@ -1,0 +1,209 @@
+Matrix,Compound,Class,Median Conc
+Groundwater,PFPrA,PFCA,13000
+Groundwater,PFBA,PFCA,656
+Groundwater,PFPeA,PFCA,517
+Groundwater,PFHxA,PFCA,440
+Groundwater,PFHpA,PFCA,205
+Groundwater,PFOA,PFCA,568
+Groundwater,PFNA,PFCA,110
+Groundwater,PFDA,PFCA,18
+Groundwater,PFUdA,PFCA,17
+Groundwater,PFDoA,PFCA,14
+Groundwater,PFEtS,PFSA,375
+Groundwater,PFPrS,PFSA,10800
+Groundwater,PFBS,PFSA,430
+Groundwater,PFPeS,PFSA,7200
+Groundwater,PFHxS,PFSA,1062
+Groundwater,PFHpS,PFSA,1550
+Groundwater,PFOS,PFSA,2048
+Groundwater,PFNS,PFSA,445
+Groundwater,PFDS,PFSA,9
+Groundwater,4:2 FTS,Secondary FT-based precursor,835
+Groundwater,6:2 FTS,Secondary FT-based precursor,2700
+Groundwater,8:2 FTS,Secondary FT-based precursor,628
+Groundwater,FHxSA,Secondary ECF-based precursor,11000
+Groundwater,FOSA,Secondary ECF-based precursor,119
+Groundwater,6:2 FTAB,Primary FT-based precursor,291
+Groundwater,AmPr-FBSA,Primary ECF-based precursor,26
+Groundwater,AmPr-FPeSA,Primary ECF-based precursor,8.3
+Groundwater,AmPr-FHxSA,Primary ECF-based precursor,36
+Groundwater,AmPr-FBSA-PrA,Primary ECF-based precursor,8
+Groundwater,AmPr-FPeSA-PrA,Primary ECF-based precursor,6.9
+Groundwater,AmPr-FHxSA-PrA,Primary ECF-based precursor,10
+Surface water,PFBA,PFCA,24
+Surface water,PFPeA,PFCA,19
+Surface water,PFHxA,PFCA,22
+Surface water,PFHpA,PFCA,10
+Surface water,PFOA,PFCA,32
+Surface water,PFNA,PFCA,4.4
+Surface water,PFDA,PFCA,5.6
+Surface water,PFUdA,PFCA,6
+Surface water,PFBS,PFSA,13
+Surface water,PFHxS,PFSA,46
+Surface water,PFHpS,PFSA,61
+Surface water,PFOS,PFSA,140
+Surface water,PFDS,PFSA,3.6
+Surface water,4:2 FTS,Secondary FT-based precursor,5
+Surface water,6:2 FTS,Secondary FT-based precursor,28
+Surface water,8:2 FTS,Secondary FT-based precursor,22
+Surface water,FOSA,Secondary ECF-based precursor,1.8
+Surface water,6:2 FTAB,Primary FT-based precursor,426
+Surface soil,PFBA,PFCA,2.3
+Surface soil,PFPeA,PFCA,5.9
+Surface soil,PFHxA,PFCA,6
+Surface soil,PFHpA,PFCA,2.4
+Surface soil,PFOA,PFCA,4
+Surface soil,PFNA,PFCA,2.2
+Surface soil,PFDA,PFCA,1
+Surface soil,PFUdA,PFCA,0.8
+Surface soil,PFDoA,PFCA,1.3
+Surface soil,PFTrDA,PFCA,0.3
+Surface soil,PFTeDA,PFCA,0.7
+Surface soil,PFPrS,PFSA,0.4
+Surface soil,PFBS,PFSA,1.3
+Surface soil,PFPeS,PFSA,0.9
+Surface soil,PFHxS,PFSA,8
+Surface soil,PFHpS,PFSA,2.5
+Surface soil,PFOS,PFSA,78
+Surface soil,PFNS,PFSA,1.9
+Surface soil,PFDS,PFSA,1.4
+Surface soil,6:2 FTUA,Secondary FT-based precursor,0.3
+Surface soil,8:2 FTUA,Secondary FT-based precursor,0.1
+Surface soil,4:2 FTS,Secondary FT-based precursor,0.1
+Surface soil,6:2 FTS,Secondary FT-based precursor,40
+Surface soil,8:2 FTS,Secondary FT-based precursor,14
+Surface soil,10:2 FTS,Secondary FT-based precursor,0.4
+Surface soil,5:3 acid,Secondary FT-based precursor,1.5
+Surface soil,7:3 acid,Secondary FT-based precursor,0.4
+Surface soil,FHxSA,Secondary ECF-based precursor,12
+Surface soil,FOSA,Secondary ECF-based precursor,3
+Surface soil,FOSAA,Secondary ECF-based precursor,0
+Surface soil,EtFOSA,Secondary ECF-based precursor,0
+Surface soil,6:2 FTAB,Primary FT-based precursor,494
+Surface soil,6:2 FtSaAm,Primary FT-based precursor,116
+Surface soil,AmPr-FHxSA,Primary ECF-based precursor,66
+Surface soil,AmPr-FOSA,Primary ECF-based precursor,4.6
+Surface soil,TAmPr-FHxSA,Primary ECF-based precursor,9
+Surface soil,TAmPr-FOSA,Primary ECF-based precursor,0.2
+Subsurface soil,PFBA,PFCA,5
+Subsurface soil,PFPeA,PFCA,7
+Subsurface soil,PFHxA,PFCA,11
+Subsurface soil,PFHpA,PFCA,3
+Subsurface soil,PFOA,PFCA,8.4
+Subsurface soil,PFNA,PFCA,1
+Subsurface soil,PFDA,PFCA,0.7
+Subsurface soil,PFUdA,PFCA,0.1
+Subsurface soil,PFPrS,PFCA,1.5
+Subsurface soil,PFBS,PFSA,5
+Subsurface soil,PFPeS,PFSA,2.8
+Subsurface soil,PFHxS,PFSA,25
+Subsurface soil,PFHpS,PFSA,3.5
+Subsurface soil,PFOS,PFSA,80
+Subsurface soil,PFNS,PFSA,0.4
+Subsurface soil,PFDS,PFSA,2.1
+Subsurface soil,4:2 FTS,Secondary FT-based precursor,2.1
+Subsurface soil,6:2 FTS,Secondary FT-based precursor,26.5
+Subsurface soil,8:2 FTS,Secondary FT-based precursor,9.6
+Subsurface soil,FHxSA,Secondary ECF-based precursor,16.8
+Subsurface soil,FOSA,Secondary ECF-based precursor,5.8
+Subsurface soil,MeFOSAA,Secondary ECF-based precursor,0.5
+Subsurface soil,6:2 FTAB,Primary FT-based precursor,279.5
+Subsurface soil,6:2 FtSaAm,Primary FT-based precursor,41
+Subsurface soil,AmPr-FHxSA,Primary ECF-based precursor,353.1
+Subsurface soil,TAmPr-FHxSA,Primary ECF-based precursor,636.9
+Sediment,PFBA,PFCA,0.1
+Sediment,PFPeA,PFCA,0.5
+Sediment,PFHxA,PFCA,0.7
+Sediment,PFHpA,PFCA,0.2
+Sediment,PFOA,PFCA,0.1
+Sediment,PFNA,PFCA,0.1
+Sediment,PFDA,PFCA,0.1
+Sediment,PFUdA,PFCA,0.3
+Sediment,PFDoA,PFCA,0.3
+Sediment,PFTrDA,PFCA,0.6
+Sediment,PFTeDA,PFCA,0.9
+Sediment,PFHxS,PFSA,0.7
+Sediment,PFOS,PFSA,1.1
+Sediment,PFDS,PFSA,0.2
+Sediment,6:2 FTS,Secondary FT-based precursor,0.5
+Sediment,8:2 FTS,Secondary FT-based precursor,0.1
+Sediment,10:2 FTS,Secondary FT-based precursor,0
+Sediment,5:3 acid,Secondary FT-based precursor,0.1
+Sediment,7:3 acid,Secondary FT-based precursor,0
+Sediment,FOSA,Secondary ECF-based precursor,0.1
+Sediment,EtFOSA,Secondary ECF-based precursor,0.2
+Sediment,6:2 FTAB,Primary FT-based precursor,1.9
+Sediment,8:2 FTAB,Primary FT-based precursor,0.1
+Sediment,10:2 FTAB,Primary FT-based precursor,0.1
+Sediment,12:2 FTAB,Primary FT-based precursor,0.2
+Sediment,6:2 FtSaAm,Primary FT-based precursor,4.8
+Sediment,8:2 FtSaAm,Primary FT-based precursor,0.2
+ECF-based AFFF,PFCA (11),PFCA,0.1
+ECF-based AFFF,Me/Et-FOSA(A),Secondary ECF-based precursor,0.2
+ECF-based AFFF,PFCA (9),PFCA,0.25
+ECF-based AFFF,FASA (4/6/8),Secondary ECF-based precursor,0.3
+ECF-based AFFF,PFPA (8/10),PFPA,0.5
+ECF-based AFFF,PFCA (10),PFCA,0.55
+ECF-based AFFF,PFCA (8),PFCA,0.6
+ECF-based AFFF,Me/Et-FOSE,Secondary ECF-based precursor,0.9
+ECF-based AFFF,PFCA (12),PFCA,4.05
+ECF-based AFFF,n:2 FTS (4/6/8),Secondary FT-based precursor,6.75
+ECF-based AFFF,PFSA (2),PFSA,9
+ECF-based AFFF,AmPr-FASA (7),Primary ECF-based precursor,19.5
+ECF-based AFFF,PFSA (10),PFSA,20.1
+ECF-based AFFF,PFCA (6),PFCA,22.8
+ECF-based AFFF,AmPr-FASA-PrA (7),Primary ECF-based precursor,25.5
+ECF-based AFFF,PFCA (3),PFCA,27.6
+ECF-based AFFF,PFSA (9),PFSA,28.5
+ECF-based AFFF,FtTAoS (6),Primary FT-based precursor,40.4
+ECF-based AFFF,PFCA (4),PFCA,46.3
+ECF-based AFFF,AmPr-FASA-PrA (8),Primary ECF-based precursor,61.5
+ECF-based AFFF,AmPr-FASA (8),Primary ECF-based precursor,62
+ECF-based AFFF,PFCA (7),PFCA,93
+ECF-based AFFF,PFCA (5),PFCA,100
+ECF-based AFFF,PFSA (5),PFSA,120
+ECF-based AFFF,PFSA (7),PFSA,120
+ECF-based AFFF,PFSA (4),PFSA,130
+ECF-based AFFF,PFSA (3),PFSA,184
+ECF-based AFFF,AmPr-FASA-PrA (5),Primary ECF-based precursor,450
+ECF-based AFFF,AmPr-FASA (5),Primary ECF-based precursor,500
+ECF-based AFFF,AmPr-FASA (4),Primary ECF-based precursor,600
+ECF-based AFFF,PFSA (6),PFSA,600
+ECF-based AFFF,AmPr-FASA-PrA (4),Primary ECF-based precursor,1100
+ECF-based AFFF,AmPr-FASA (6),Primary ECF-based precursor,2050
+ECF-based AFFF,AmPr-FASA-PrA (6),Primary ECF-based precursor,2300
+ECF-based AFFF,PFSA (8),PFSA,4900
+FT-based AFFF,PFSA (4),PFSA,0.1
+FT-based AFFF,PFCA (11),PFCA,0.15
+FT-based AFFF,FOSA-based,Secondary ECF-based precursor,0.2
+FT-based AFFF,PFCA (8),PFCA,0.2
+FT-based AFFF,PFCA (9),PFCA,0.2
+FT-based AFFF,PFSA (10),PFSA,0.2
+FT-based AFFF,PFSA (6),PFSA,0.2
+FT-based AFFF,n:2 FTS (4),Secondary FT-based precursor,0.3
+FT-based AFFF,PFCA (4),PFCA,0.3
+FT-based AFFF,PFSA (9),PFSA,0.4
+FT-based AFFF,PFCA (6),PFCA,0.6
+FT-based AFFF,PFCA (7),PFCA,0.6
+FT-based AFFF,PFPAs (8/10),PFPA,0.9
+FT-based AFFF,PFCA (3),PFCA,1
+FT-based AFFF,PFSA (8),PFSA,1.5
+FT-based AFFF,PFCA (5),PFCA,1.6
+FT-based AFFF,n:2 FTCA (8),Secondary FT-based precursor,2
+FT-based AFFF,n:2 FTS (8),Secondary FT-based precursor,3.1
+FT-based AFFF,n:2 FTOH (10),Secondary FT-based precursor,5.8
+FT-based AFFF,n:2 FTOH (6),Secondary FT-based precursor,8
+FT-based AFFF,n:2 FTOH (8),Secondary FT-based precursor,8
+FT-based AFFF,n:2 FtTAoS (4),Primary FT-based precursor,26.9
+FT-based AFFF,n:2 FTS (6),Secondary FT-based precursor,53.7
+FT-based AFFF,n:2 FtTAoS (8),Primary FT-based precursor,135.5
+FT-based AFFF,n:2 FTAB (12),Primary FT-based precursor,320
+FT-based AFFF,n:2 FtSaAm (6),Primary FT-based precursor,400
+FT-based AFFF,n:2 FTAB (10),Primary FT-based precursor,450
+FT-based AFFF,n:2 FTAB (8),Primary FT-based precursor,500
+FT-based AFFF,n:3 FTB (5/7/9),Primary FT-based precursor,565
+FT-based AFFF,n:2 FtSaAm (8),Primary FT-based precursor,585
+FT-based AFFF,n:2 H-FTB (5/7/9),Primary FT-based precursor,2150
+FT-based AFFF,n:2 FtTHN (6),Primary FT-based precursor,2200
+FT-based AFFF,n:2 FTAB (6),Primary FT-based precursor,3188
+FT-based AFFF,n:2 FtTAoS (6),Primary FT-based precursor,7100

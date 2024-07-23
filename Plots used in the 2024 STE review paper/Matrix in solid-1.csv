@@ -1,0 +1,127 @@
+Matrix,Compound,Concentration,DF
+Sediment,PFBA,0.12,**
+Sediment,PFPeA,0.52,**
+Sediment,PFHxA,0.7,**
+Sediment,PFHpA,0.17,*
+Sediment,PFOA,0.1,***
+Sediment,PFNA,0.1,*
+Sediment,PFDA,0.1,**
+Sediment,PFUdA,0.28,**
+Sediment,PFDoA,0.28,**
+Sediment,PFTrDA,0.63,**
+Sediment,PFTeDA,0.92,*
+Sediment,PFPrS,NA,NA
+Sediment,PFBS,NA,NA
+Sediment,PFPeS,NA,NA
+Sediment,PFHxS,0.65,**
+Sediment,PFHpS,NA,NA
+Sediment,PFOS,1.12,****
+Sediment,PFNS,NA,NA
+Sediment,PFDS,0.2,**
+Sediment,X6.2.FTUA,NA,NA
+Sediment,X8.2.FTUA,NA,NA
+Sediment,X4.2.FTS,NA,NA
+Sediment,X6.2.FTS,0.51,***
+Sediment,X8.2.FTS,0.08,**
+Sediment,X10.2.FTS,0.04,**
+Sediment,X5.3.acid,0.08,*
+Sediment,X7.3.acid,0.04,**
+Sediment,FHxSA,NA,NA
+Sediment,FOSA,0.1,**
+Sediment,FOSAA,NA,NA
+Sediment,N.EtFOSA,0.24,*****
+Sediment,N.MeFOSAA,NA,NA
+Sediment,X6.2.FTAB,1.9,*
+Sediment,X8.2.FTAB,0.06,****
+Sediment,X10.2.FTAB,0.13,****
+Sediment,X12.2.FTAB,0.15,**
+Sediment,X6.2.FtSaAm,4.8,*
+Sediment,X8.2.FtSaAm,0.17,*****
+Sediment,AmPr.FHxSA,NA,NA
+Sediment,AmPr.FOSA,NA,NA
+Sediment,TAmPr.FOSA,NA,NA
+Sediment,TAmPr.FHxSA,NA,NA
+Subsurface soil,PFBA,5,**
+Subsurface soil,PFPeA,7,****
+Subsurface soil,PFHxA,11.1,****
+Subsurface soil,PFHpA,3,****
+Subsurface soil,PFOA,8.39,****
+Subsurface soil,PFNA,1.04,**
+Subsurface soil,PFDA,0.67,**
+Subsurface soil,PFUdA,0.05,*
+Subsurface soil,PFDoA,NA,NA
+Subsurface soil,PFTrDA,NA,NA
+Subsurface soil,PFTeDA,NA,NA
+Subsurface soil,PFPrS,1.54,***
+Subsurface soil,PFBS,5,****
+Subsurface soil,PFPeS,2.82,*****
+Subsurface soil,PFHxS,25,*****
+Subsurface soil,PFHpS,3.47,***
+Subsurface soil,PFOS,80,****
+Subsurface soil,PFNS,0.37,****
+Subsurface soil,PFDS,2.13,*
+Subsurface soil,X6.2.FTUA,NA,NA
+Subsurface soil,X8.2.FTUA,NA,NA
+Subsurface soil,X4.2.FTS,2.11,*
+Subsurface soil,X6.2.FTS,26.5,****
+Subsurface soil,X8.2.FTS,9.55,***
+Subsurface soil,X10.2.FTS,NA,NA
+Subsurface soil,X5.3.acid,NA,NA
+Subsurface soil,X7.3.acid,NA,NA
+Subsurface soil,FHxSA,16.79,*****
+Subsurface soil,FOSA,5.83,**
+Subsurface soil,FOSAA,NA,NA
+Subsurface soil,N.EtFOSA,NA,NA
+Subsurface soil,N.MeFOSAA,0.51,*
+Subsurface soil,X6.2.FTAB,279.5,***
+Subsurface soil,X8.2.FTAB,NA,NA
+Subsurface soil,X10.2.FTAB,NA,NA
+Subsurface soil,X12.2.FTAB,NA,NA
+Subsurface soil,X6.2.FtSaAm,41,*
+Subsurface soil,X8.2.FtSaAm,NA,NA
+Subsurface soil,AmPr.FHxSA,353.1,**
+Subsurface soil,AmPr.FOSA,NA,NA
+Subsurface soil,TAmPr.FOSA,NA,NA
+Subsurface soil,TAmPr.FHxSA,636.9,**
+Surface soil,PFBA,2.29,****
+Surface soil,PFPeA,5.86,****
+Surface soil,PFHxA,6,****
+Surface soil,PFHpA,2.43,****
+Surface soil,PFOA,4,****
+Surface soil,PFNA,2.23,***
+Surface soil,PFDA,1.04,***
+Surface soil,PFUdA,0.81,**
+Surface soil,PFDoA,1.33,**
+Surface soil,PFTrDA,0.3,**
+Surface soil,PFTeDA,0.72,**
+Surface soil,PFPrS,0.35,**
+Surface soil,PFBS,1.29,***
+Surface soil,PFPeS,0.86,***
+Surface soil,PFHxS,8,*****
+Surface soil,PFHpS,2.5,***
+Surface soil,PFOS,77.6,*****
+Surface soil,PFNS,1.93,*****
+Surface soil,PFDS,1.36,***
+Surface soil,X6.2.FTUA,0.26,**
+Surface soil,X8.2.FTUA,0.1,**
+Surface soil,X4.2.FTS,0.11,**
+Surface soil,X6.2.FTS,40.3,*****
+Surface soil,X8.2.FTS,14,****
+Surface soil,X10.2.FTS,0.39,**
+Surface soil,X5.3.acid,1.51,**
+Surface soil,X7.3.acid,0.4,*****
+Surface soil,FHxSA,12,****
+Surface soil,FOSA,3,****
+Surface soil,FOSAA,0.02,*
+Surface soil,N.EtFOSA,0.04,*
+Surface soil,N.MeFOSAA,NA,NA
+Surface soil,X6.2.FTAB,494,****
+Surface soil,X8.2.FTAB,NA,NA
+Surface soil,X10.2.FTAB,NA,NA
+Surface soil,X12.2.FTAB,NA,NA
+Surface soil,X6.2.FtSaAm,116,**
+Surface soil,X8.2.FtSaAm,NA,NA
+Surface soil,AmPr.FHxSA,66,**
+Surface soil,AmPr.FOSA,4.57,*
+Surface soil,TAmPr.FOSA,0.17,*
+Surface soil,TAmPr.FHxSA,9,***

@@ -1,0 +1,63 @@
+Matrix,Compound,Concentration,DF
+Groundwater,PFPrA,13000,**
+Groundwater,PFBA,656,***
+Groundwater,PFPeA,516.5,****
+Groundwater,PFHxA,440,****
+Groundwater,PFHpA,205,****
+Groundwater,PFOA,568,****
+Groundwater,PFNA,110,**
+Groundwater,PFDA,18,*
+Groundwater,PFUdA,17,*
+Groundwater,PFDoA,14,*
+Groundwater,PFEtS,375,****
+Groundwater,PFPrS,10800,*****
+Groundwater,PFBS,430,****
+Groundwater,PFPeS,7200,*****
+Groundwater,PFHxS,1062,*****
+Groundwater,PFHpS,1550,****
+Groundwater,PFOS,2048,*****
+Groundwater,PFNS,445,***
+Groundwater,PFDS,9.05,*
+Groundwater,X4.2.FTS,835,**
+Groundwater,X6.2.FTS,2700,***
+Groundwater,X8.2.FTS,628,**
+Groundwater,FHxSA,11000,****
+Groundwater,FOSA,119,*
+Groundwater,X6.2.FTAB,291,*
+Groundwater,AmPr.FBSA,26,*
+Groundwater,AmPr.FPeSA,8.25,*
+Groundwater,AmPr.FHxSA,36,*
+Groundwater,AmPr.FBSA.PrA,7.95,*
+Groundwater,AmPr.FPeSA.PrA,6.85,*
+Groundwater,AmPr.FHxSA.PrA,10,*
+Surface water,PFPrA,NA,NA
+Surface water,PFBA,23.9,****
+Surface water,PFPeA,19,****
+Surface water,PFHxA,22,****
+Surface water,PFHpA,10.4,*****
+Surface water,PFOA,31.5,*****
+Surface water,PFNA,4.4,****
+Surface water,PFDA,5.62,***
+Surface water,PFUdA,6,**
+Surface water,PFDoA,NA,NA
+Surface water,PFEtS,NA,NA
+Surface water,PFPrS,NA,NA
+Surface water,PFBS,13,****
+Surface water,PFPeS,NA,NA
+Surface water,PFHxS,46,****
+Surface water,PFHpS,60.95,***
+Surface water,PFOS,140,*****
+Surface water,PFNS,NA,NA
+Surface water,PFDS,3.55,*
+Surface water,X4.2.FTS,5,*
+Surface water,X6.2.FTS,28,****
+Surface water,X8.2.FTS,22,**
+Surface water,FHxSA,NA,NA
+Surface water,FOSA,1.81,**
+Surface water,X6.2.FTAB,426,****
+Surface water,AmPr.FBSA,NA,NA
+Surface water,AmPr.FPeSA,NA,NA
+Surface water,AmPr.FHxSA,NA,NA
+Surface water,AmPr.FBSA.PrA,NA,NA
+Surface water,AmPr.FPeSA.PrA,NA,NA
+Surface water,AmPr.FHxSA.PrA,NA,NA
