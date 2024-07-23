@@ -1,2 +1,2 @@
-# This tutorial covers the universal codes for PICRUSt2 pipeline which can be customized if needed and codes to generate heatmap and sankey diagram.
+# This tutorial covers the universal codes for PICRUSt2 pipeline which can be customized if needed (NOT R code) and codes to generate heatmap and sankey diagram (R code).
 # Details regarding PICRUSt2 documentation, installation, and tutorials can be found at https://github.com/picrust/picrust2/wiki
