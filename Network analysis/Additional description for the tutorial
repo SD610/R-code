@@ -1,0 +1,4 @@
+# The files, including codes and data, are only examples for tutorial purposes.
+# The tutorial mainly helps you get familiar with preparing input data from 16S rRNA gene sequencing data for use in the software Gephi to generate network figures.
+# Gephi can help calculate some topological parameters for the network. However, other parameters and statistical analyses may not be done in Gephi and are not covered in this tutorial.
+# This tutorial also does not cover the detailed usage of Gephi, particularly regarding how to adjust parameters for network visualization.
