@@ -1,3 +1,8 @@
+# To generate bubble plot and pie chart for PFAS composition
+# By: Sheng Dong
+# Edited: 7/25/2024
+
+#Import data
 setwd("/Users/shengdong/Desktop")
 df <- read.csv("Test data for PFAS review paper.csv", header = T)
 df[df == 0] <- NA
@@ -18,7 +23,6 @@ solid <- solid[, colSums(is.na(solid)) < nrow(solid)]
 wl = melt(water, id = c("Name"))
 sl = melt(solid, id = c("Name"))
 
-
 wl$value <- as.numeric(wl$value)
 sl$value <- as.numeric(sl$value)
 
@@ -28,7 +32,7 @@ sl$value <- round(sl$value,2)
 colnames(wl) <- c("Matrix","Compound","Concentration")
 colnames(sl) <- c("Matrix","Compound","Concentration")
 
-# Output the long format file and add detection frequency manually
+# Output the long format file and add detection frequency manually (the manually modifed files are already prepared in the folder)
 write.csv(wl, file = "Matrix in water.csv", row.names = FALSE)
 write.csv(sl, file = "Matrix in solid.csv", row.names = FALSE)
 
@@ -227,15 +231,6 @@ library(dplyr)
 library(graphics)
 library(ggplot2)
 
-# Label
-#labs_gw <- paste0(gwd$Class, " ", round(gwd$Median.Conc/sum(gwd$Median.Conc)*100,1), "%", sep="") 
-#labs_sw <- paste0(swd$Class," ", round(swd$Median.Conc/sum(swd$Median.Conc)*100,1), "%", sep="") 
-#labs_ss <- paste0(ssd$Class," ", round(ssd$Median.Conc/sum(ssd$Median.Conc)*100,1), "%", sep="") 
-#labs_subss <- paste0(subssd$Class," ", round(subssd$Median.Conc/sum(subssd$Median.Conc)*100,1), "%", sep="") 
-#labs_sd <- paste0(sdd$Class," ", round(sdd$Median.Conc/sum(sdd$Median.Conc)*100,1), "%", sep="")
-#labs_ecf <- paste0(ecfd$Class," ", round(ecfd$Median.Conc/sum(ecfd$Median.Conc)*100,1), "%", sep="")
-#labs_ft <- paste0(ftd$Class," ", round(ftd$Median.Conc/sum(ftd$Median.Conc)*100,1), "%", sep="")
-
 labs_gw <- paste0(round(gwd$Median.Conc/sum(gwd$Median.Conc)*100,1), "%", sep="") 
 labs_sw <- paste0(round(swd$Median.Conc/sum(swd$Median.Conc)*100,1), "%", sep="") 
 labs_ss <- paste0(round(ssd$Median.Conc/sum(ssd$Median.Conc)*100,1), "%", sep="") 
@@ -303,7 +298,6 @@ jpeg("FT-based AFFF.jpeg", res = 300, width = 1000, height = 600)
 par(mar = c(1, 1, 1, 3))
 pie(ftd$Median.Conc,labels=labs_ft, init.angle=90, col =  my_colors[match(labs_ft, names(my_colors))], border = NA, main = "FT-based AFFF", cex = 0.4, cex.main = 0.5)
 dev.off()
-
 
 my_colors <- c("#FFB6C1", "#90EE90", "#FFDAB9", "#FFFFE0", "#ADD8E6","#D3D3D3","#E6E6FA")
 names(my_colors) <- labs_ecf
