@@ -1,9 +1,13 @@
-#Import the data
-ECFAFFF<-read.csv(file.choose(), header=T)
+# To generate boxplot for the PFAS components in ECF-based AFFF
+# By: Sheng Dong
+# Edited: 7/25/2024
+
+#Import the data: use ECF_AFFF.csv
+ECFAFFF<-read.csv(file.choose(), header=T) 
 library(ggplot2)
 library(plyr)
 library(scales)
-
+# Remove all blank rows
 ECFAFFF <- na.omit(ECFAFFF)
 
 level_order <- c("PFCA (3)","PFCA (4)","PFCA (5)","PFCA (6)","PFCA (7)","PFCA (8)","PFCA (9)","PFCA (10)",
