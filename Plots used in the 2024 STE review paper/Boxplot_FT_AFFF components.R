@@ -18,8 +18,6 @@ level_order <- c("PFCA (3)","PFCA (4)","PFCA (5)","PFCA (6)","PFCA (7)","PFCA (8
                  "FOSA-based","n:2 FtTAoS (4)","n:2 FtTAoS (6)","n:2 FtTAoS (8)","n:2 FTAB (6)","n:2 FTAB (8)","n:2 FTAB (10)",  
                  "n:2 FTAB (12)","n:2 FtSaAm (6)","n:2 FtSaAm (8)","n:2 FtTHN (6)","n:2 H-FTB (5/7/9)","n:3 FTB (5/7/9)")
 
-
-#reorder the boxplot in ascendind conc., based on median concentration
 ggplot(FTAFFF, aes(x= factor(PFAS, level = level_order), y=conc))+
   ggtitle("PFAS in FT-based AFFF formulations") +
   xlab("PFAS") + ylab("Concentration (mg/L)") +
