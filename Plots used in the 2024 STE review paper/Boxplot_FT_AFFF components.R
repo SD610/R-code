@@ -1,23 +1,16 @@
-#Import the data
-FTAFFF<-read.csv(file.choose(), header=T)
-FTAFFF<-na.omit(FTAFFF)
-#The very basic boxplot
-#boxplot (conc~PFAS,data=FTAFFF)
-#Add axis title and set y-axis value horizontol
-#boxplot (conc~PFAS,data=FTAFFF, xlab="PFAS", ylab="concentration", las=1)
-#convert to log-y scale
+# To generate boxplot for the PFAS components in FT-based AFFF
+# By: Sheng Dong
+# Edited: 7/25/2024
 
+#Import the data: use FT_AFFF.csv
+FTAFFF<-read.csv(file.choose(), header=T)
+#Remove blank rows
+FTAFFF<-na.omit(FTAFFF)
 
 ###Start using ggplot###
 library(ggplot2)
 library(plyr)
 library(scales)
-#ggplot(FTAFFF, aes(x=PFAS, y=conc))+
-#  geom_boxplot(outlier.colour = "red", outlier.shape = 1) + #set outlier 
-#  theme_classic()+
-#  coord_trans(y = "log10")+ 
-#Adding jitter
-#  geom_jitter(color="blue", size=0.7, alpha=0.5)
 
 level_order <- c("PFCA (3)","PFCA (4)","PFCA (5)","PFCA (6)","PFCA (7)","PFCA (8)","PFCA (9)",         
                  "PFCA (11)","PFSA (4)","PFSA (6)","PFSA (8)","PFSA (9)","PFSA (10)","PFPAs (8/10)","n:2 FTOH (6)",     
@@ -27,7 +20,6 @@ level_order <- c("PFCA (3)","PFCA (4)","PFCA (5)","PFCA (6)","PFCA (7)","PFCA (8
 
 
 #reorder the boxplot in ascendind conc., based on median concentration
-#ggplot(FTAFFF, aes(x=reorder(PFAS,conc,FUN=median), y=conc))+
 ggplot(FTAFFF, aes(x= factor(PFAS, level = level_order), y=conc))+
   ggtitle("PFAS in FT-based AFFF formulations") +
   xlab("PFAS") + ylab("Concentration (mg/L)") +
